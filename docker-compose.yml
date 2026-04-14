@@ -12,7 +12,7 @@ services:
     restart: always
 
   service-b:
-    build: ./WinWinServiceB
+    build: WinWinServiceB
     container_name: service-b
     ports:
       - "8081:8081"
