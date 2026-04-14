@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="059e2ed5-875d-4395-8372-240e8cf140ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceA/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WinWinServiceA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/Old/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/Old/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/Old/ProcessingLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/Old/TransformRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/Old/TransformResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceA/src/main/java/winwintestservicea/dto/RegisterRequest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vk/winwinserviceb/controller/TransformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vk/winwinserviceb/controller/TransformController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vk/winwinserviceb/service/TransformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vk/winwinserviceb/service/TransformService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.http" beforeDir="false" afterPath="$PROJECT_DIR$/../test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +113,7 @@
       <workItem from="1776188088539" duration="605000" />
       <workItem from="1776190530071" duration="60000" />
       <workItem from="1776190836855" duration="103000" />
+      <workItem from="1776191473053" duration="216000" />
     </task>
     <servers />
   </component>

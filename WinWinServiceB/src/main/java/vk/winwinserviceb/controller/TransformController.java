@@ -9,8 +9,6 @@ import vk.winwinserviceb.dto.TransformRequest;
 import vk.winwinserviceb.dto.TransformResponse;
 import vk.winwinserviceb.service.TransformService;
 
-import java.util.Map;
-
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
@@ -28,7 +26,7 @@ public class TransformController {
     ) {
 
         if (token == null || !token.equals(internalToken)) {
-            return ResponseEntity.status(403).build();
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
         }
 
         return ResponseEntity.ok(transformService.transform(request));

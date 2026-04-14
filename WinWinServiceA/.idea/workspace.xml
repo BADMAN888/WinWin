@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5f23414-10d6-46fa-8752-4c40a7f35aa5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/controller/TransformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/controller/TransformController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/service/TransformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/service/TransformService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.http" beforeDir="false" afterPath="$PROJECT_DIR$/../test.http" afterDir="false" />
-    </list>
+    <list default="true" id="c5f23414-10d6-46fa-8752-4c40a7f35aa5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +146,7 @@
       <workItem from="1776189446071" duration="1076000" />
       <workItem from="1776190591355" duration="243000" />
       <workItem from="1776190941690" duration="11000" />
+      <workItem from="1776191093662" duration="376000" />
     </task>
     <servers />
   </component>
