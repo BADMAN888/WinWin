@@ -1,15 +1,126 @@
+### =========================
+### AUTH SERVICE (A)
+### =========================
+
+### REGISTER (SUCCESS)
 POST http://localhost:8080/api/auth/register
 Content-Type: application/json
 
 {
-  "email": "test@gmail.com",
-  "password": "123456"
+  "email": "1test@mail.com",
+  "password": "1234"
 }
-###
+
+### REGISTER (DUPLICATE)
+POST http://localhost:8080/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "test@mail.com",
+  "password": "1234"
+}
+
+### LOGIN (SUCCESS)
 POST http://localhost:8080/api/auth/login
 Content-Type: application/json
 
 {
-  "email": "test@gmail.com",
-  "password": "123456"
+  "email": "test@mail.com",
+  "password": "1234"
+}
+
+### LOGIN (INVALID PASSWORD)
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@mail.com",
+  "password": "wrong"
+}
+
+
+### =========================
+### PROCESS (JWT REQUIRED)
+### =========================
+
+### PROCESS (SUCCESS)
+POST http://localhost:8080/api/process
+Content-Type: application/json
+Authorization: Bearer <TOKEN>
+
+{
+  "text": "hello world"
+}
+
+### PROCESS (NO TOKEN)
+POST http://localhost:8080/api/process
+Content-Type: application/json
+
+{
+  "text": "hello"
+}
+
+### PROCESS (INVALID TOKEN)
+POST http://localhost:8080/api/process
+Content-Type: application/json
+Authorization: Bearer invalidtoken
+
+{
+  "text": "hello"
+}
+
+### PROCESS (EMPTY TEXT)
+POST http://localhost:8080/api/process
+Content-Type: application/json
+Authorization: Bearer <TOKEN>
+
+{
+  "text": ""
+}
+
+
+### =========================
+### SERVICE B (INTERNAL API)
+### =========================
+
+### TRANSFORM (SUCCESS)
+POST http://localhost:8081/api/transform
+Content-Type: application/json
+X-Internal-Token: secret123
+
+{
+  "text": "hello"
+}
+
+### TRANSFORM (NO TOKEN)
+POST http://localhost:8081/api/transform
+Content-Type: application/json
+
+{
+  "text": "hello"
+}
+
+### TRANSFORM (WRONG TOKEN)
+POST http://localhost:8081/api/transform
+Content-Type: application/json
+X-Internal-Token: wrong
+
+{
+  "text": "hello"
+}
+
+### TRANSFORM (EMPTY BODY)
+POST http://localhost:8081/api/transform
+Content-Type: application/json
+X-Internal-Token: secret123
+
+{}
+
+###
+POST http://localhost:8080/api/process
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5ZjBhYzFjNi1iMTE2LTQ1ODgtODk2YS03MDAzODIzODI2NzgiLCJpYXQiOjE3NzYxOTUwMzksImV4cCI6MTc3NjI4MTQzOX0.j9vMzLHiJ53sfVGIWixaIcIFSsctR94_BNyN-C4wvMs
+
+{
+  "text": "hello world"
 }

@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://postgres:5432/test
-    username: user
-    password: pass
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/test}
+    username: ${SPRING_DATASOURCE_USERNAME:user}
+    password: ${SPRING_DATASOURCE_PASSWORD:pass}
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -11,5 +11,12 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 jwt:
-  secret: "super-secret-key-super-secret-key"
-  expiration: 86400000
+  secret: ${JWT_SECRET:super-secret-key-super-secret-key-1234567890}
+  expiration: ${JWT_EXPIRATION:86400000}
+
+data:
+  api:
+    url: ${DATA_API_URL:http://localhost:8081}
+
+internal:
+  token: ${INTERNAL_TOKEN:secret123}
