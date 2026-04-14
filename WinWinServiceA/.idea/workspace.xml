@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5f23414-10d6-46fa-8752-4c40a7f35aa5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/vk/winwinservicea/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vk/winwinservicea/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/controller/TransformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/controller/TransformController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/service/TransformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WinWinServiceB/src/main/java/vk/winwinserviceb/service/TransformService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.http" beforeDir="false" afterPath="$PROJECT_DIR$/../test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,28 +29,30 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BADMAN888"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BADMAN888&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BADMAN888/WinWinTestEx.git",
-    "accountId": "c967ac57-ea97-40ba-9a04-8b0406fe445e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BADMAN888/WinWinTestEx.git&quot;,
+    &quot;accountId&quot;: &quot;c967ac57-ea97-40ba-9a04-8b0406fe445e&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,28 +64,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.Dockerfile.executor": "Run",
-    "Gradle.Build WinWinServiceA.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.WinWinServiceAApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vlad2/Desktop/WinWin/WinWinServiceA/src/main/java/vk/winwinservicea",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build WinWinServiceA.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.WinWinServiceAApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vlad2/Desktop/WinWin/WinWinServiceA/src/main/java/vk/winwinservicea&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vlad2\Desktop\WinWin\WinWinServiceA\src\main\java\vk\winwinservicea" />
@@ -89,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WinWinTestServiceAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="WinWinServiceA.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="winwintestservicea.WinWinTestServiceAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -98,7 +115,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -129,6 +148,14 @@
       <workItem from="1776166240520" duration="107000" />
       <workItem from="1776166578887" duration="244000" />
       <workItem from="1776170753760" duration="1145000" />
+      <workItem from="1776179978679" duration="468000" />
+      <workItem from="1776180559583" duration="48000" />
+      <workItem from="1776181007781" duration="2742000" />
+      <workItem from="1776188703596" duration="180000" />
+      <workItem from="1776188909875" duration="488000" />
+      <workItem from="1776189446071" duration="1076000" />
+      <workItem from="1776190591355" duration="243000" />
+      <workItem from="1776190941690" duration="11000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,20 @@
 package vk.winwinserviceb.service;
 
 import org.springframework.stereotype.Service;
+import vk.winwinserviceb.dto.TransformRequest;
+import vk.winwinserviceb.dto.TransformResponse;
 
 @Service
 public class TransformService {
 
-    public String transform(String text) {
-        if (text == null || text.isBlank()) {
-            throw new IllegalArgumentException("Text cannot be empty");
-        }
+    public TransformResponse transform(TransformRequest request) {
 
-        return new StringBuilder(text)
+        String text = request.text() == null ? "" : request.text();
+
+        String result = new StringBuilder(text)
                 .reverse()
-                .toString()
-                .toUpperCase();
+                .toString();
+
+        return new TransformResponse(result);
     }
 }
