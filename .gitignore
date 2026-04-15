@@ -1,0 +1,55 @@
+# 🚫 Build
+
+/target/
+**/target/
+
+# 🚫 Logs
+
+*.log
+
+# 🚫 IDE (IntelliJ IDEA)
+
+.idea/
+*.iml
+
+# 🚫 VS Code
+
+.vscode/
+
+# 🚫 OS files
+
+.DS_Store
+Thumbs.db
+
+# 🚫 Environment variables
+
+.env
+
+# 🚫 Maven wrapper logs
+
+.mvn/wrapper/maven-wrapper.jar
+
+# 🚫 Docker
+
+*.pid
+
+# 🚫 Temporary files
+
+*.tmp
+*.swp
+
+# 🚫 Generated files
+
+out/
+
+# 🚫 Node (if any frontend appears)
+
+node_modules/
+
+# 🚫 Test output
+
+surefire-reports/
+
+# 🚫 Coverage
+
+coverage/
