@@ -1,6 +1,0 @@
-{
-  "timestamp": "2026-04-14T18:58:24.142Z",
-  "status": 500,
-  "error": "Internal Server Error",
-  "path": "/api/transform"
-}
